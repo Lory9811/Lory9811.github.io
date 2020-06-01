@@ -1,0 +1,32 @@
+.content {
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    width: 100%;
+}
+
+.posts {
+    padding: 0 1%;
+    list-style: none;
+}
+
+.posts>li {
+    margin: .05em 0;
+}
+
+.posts>li>a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-title {
+    font-weight: bold;
+    padding: 0 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    border-bottom: 2px solid black;
+}
+
+.description {
+    padding: 0 1%;
+}
