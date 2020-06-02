@@ -21,10 +21,13 @@
 
 .section-title {
     font-weight: bold;
-    padding: 0 1%;
-    padding-bottom: 1%;
+    padding: 1% 1%;
+    /*padding-bottom: 1%;*/
     margin-bottom: 1%;
-    border-bottom: 2px solid black;
+    /*border-bottom: 2px solid black;*/
+
+    color: rgb(252, 236, 195);
+    background-color: black;
 }
 
 .description {
@@ -34,4 +37,8 @@
 .read-link {
     font-weight: bold;
     padding: 0 0 0 1%;
+}
+
+.post-date {
+    float: right;
 }

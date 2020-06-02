@@ -24,7 +24,8 @@
     border-top: 2px solid black;
 }
 
-.links>a:hover {
+.links>a:hover, a.active {
     color: rgb(252, 236, 195);
     background-color: black;
 }
+
